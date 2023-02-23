@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.dashboard img {
+    height: 28rem;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form {
+display: flex;
+
+}
+h2 {
+    font-size: 40px;
+    margin-top: 45px;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 3px;
+    font-weight: 600;
+    
+}
+span {
+    color: hsl(209, 33%, 12%);
+}
+p {
+    color: hsl(209, 33%, 12%);
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.error-message {
+    font-size: 14px;
+    color: red;
+    visibility: hidden;
+}
+.form-control.error input {
+    border: 2px solid red;
+}
+button {
+    height: 30px;
+    width: 120px;
+    background-color: hsl(223, 87%, 63%);
+    border-radius: 50px;
+    border: 0;
+    color: white;
+    margin-left: 20px;
+    
+}
+input {
+    height: 30px;
+    width: 250px;
+    padding: 15px;
+    font-size: 15px;
+    border: 2px solid hsl(223, 100%, 88%);
+    border-radius: 50px;
+}
+
+@media(max-width:480px){
+    .container {
+        padding: 20px;
+        
+    }
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 15px;
+    }
+    form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+     
+    .dashboard img {
+        width: 100%
+    }
+    .error-message{
+        font-size: 12px;
+    }
+    button {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+}
